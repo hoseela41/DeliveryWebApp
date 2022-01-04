@@ -25,16 +25,22 @@ The demo video could be seen at [demo link](https://www.youtube.com/watch?time_c
 3. After registration, you should be able to get back to home page, then enter your registered account and password. Hit the eyeball could show the password you entered.
 ![login](images/login.png)
 
-4. Then there will be restarants to be selected, in this project, information of 3 restaurants were imported.
-![restaurant](img/restaurant.png)
+4. Here's the main page of creating new pacakage or organizing previous pacakage list, hit add * Add new package* button if you want to add more packages.
+![packagelist](images/packagelist.png)
 
-5. Select one of restaurant, the corresponding menu should appears.
-![menu](img/burger.png)
+5. Input the information of the pacakge you would like to deliver.
+![packageinput](images/package_input.png)
 
-6. You could hit the *plus* button to add food into cart, you should be able to see the button shows pending after hitting the object
-![add](img/adding.png)
+6. Options will pop up so that you could chose to use either drone or robot as your preferred delivery carrier. Use *radio button* for making decision.
+![options](images/options.png)
 
-7. Hit the top-right *Cart* button, you should be able to see the food you ordered and how much should be paid. If you press checkout, then the cart will be cleared and information should show "successful payment was made".
-![checkout](img/checkout.png)
+7. Hit *add* button to add to be delivered packages into cart, and press *Cart* to see the total price and added orders. Hit *CheckOut* if you wish to complete the order.
+![checkout](images/checkout.png)
 
-8. Enjoy your food!
+8. You will get an notification sent to your email address for the use of tracking your pacakge. 
+![mail](images/notification.png)
+
+9. You could enter the pacakge number at welcome package or hit *Track* button on top-right corner to head into tracking page.
+![track](images/tracking.png)
+
+10. Ready for your or your friend to receive the gift!
