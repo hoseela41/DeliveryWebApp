@@ -12,7 +12,8 @@ The demo video could be seen at [demo link](https://www.youtube.com/watch?time_c
 3. The data has to be stored to [Amazon relational database service (RDS)](https://aws.amazon.com/rds/), please create your own RDS and import the data. Don't forget to change the url in the Application config file to connect to your own database.
 4. Run Maven clean and install to import all dependencies we need.
 5. Run Tomcat, wait for couple of minutes to have the project built.
-6. Open your browser, enter http://localhost:8080/ to connect to the website, and you will see the home page
+6. Run ```npm build``` then ```npm start``` under laidelivery-app to start the frontend.
+7. Open your browser, enter http://localhost:8080/ to connect to the website, and you will see the home page
 
 ## What can we do on this website
 1. At beginning, here's the welcome page that you could start our webapp or enter a tracking number to know where your pacakge is.![welcome](images/welcome.png)
@@ -25,7 +26,7 @@ The demo video could be seen at [demo link](https://www.youtube.com/watch?time_c
 3. After registration, you should be able to get back to home page, then enter your registered account and password. Hit the eyeball could show the password you entered.
 ![login](images/login.png)
 
-4. Here's the main page of creating new pacakage or organizing previous pacakage list, hit add * Add new package* button if you want to add more packages.
+4. Here's the main page of creating new pacakage or organizing previous pacakage list, hit add *Add new package* button if you want to add more packages.
 ![packagelist](images/packagelist.png)
 
 5. Input the information of the pacakge you would like to deliver.
@@ -37,10 +38,10 @@ The demo video could be seen at [demo link](https://www.youtube.com/watch?time_c
 7. Hit *add* button to add to be delivered packages into cart, and press *Cart* to see the total price and added orders. Hit *CheckOut* if you wish to complete the order.
 ![checkout](images/checkout.png)
 
-8. You will get an notification sent to your email address for the use of tracking your pacakge. 
+8. Once checkout completes, you will get an notification sent to your email address for the use of tracking your pacakge. 
 ![mail](images/notification.png)
 
-9. You could enter the pacakge number at welcome package or hit *Track* button on top-right corner to head into tracking page.
+9. You could enter the pacakge number at welcome package or hit *Track* button on top-right corner to head into tracking page. Here you could know where your pakcage is and the estimated delivery time.
 ![track](images/tracking.png)
 
 10. Ready for your or your friend to receive the gift!
