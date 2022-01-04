@@ -8,7 +8,6 @@ The demo video could be seen at [demo link](https://www.youtube.com/watch?time_c
 
 ## How to run the project to launch the website
 1. Set the application server to be Tomcat > 9.0 versioin.
-2. Front-end code is already packed in src/main/webapp folder, so the website will start automatically as running the package. 
 3. The data has to be stored to [Amazon relational database service (RDS)](https://aws.amazon.com/rds/), please create your own RDS and import the data. Don't forget to change the url in the Application config file to connect to your own database.
 4. Run Maven clean and install to import all dependencies we need.
 5. Run Tomcat, wait for couple of minutes to have the project built.
