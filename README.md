@@ -17,13 +17,13 @@ The demo video could be seen at [demo link](https://www.youtube.com/watch?time_c
 ## What can we do on this website
 1. At beginning, here's the welcome page that you could start our webapp or enter a tracking number to know where your pacakge is.![welcome](images/welcome.png)
 
-1. At first page, please enter the account and passwod for log in. If it's your first time visiting the website, please hit *Register* button on top-right corner
+2. At first page, please enter the account and passwod for log in. If it's your first time visiting the website, please hit *Register* button on top-right corner
 
 2. Enter the information about your account, please note that error might pop-up if the content does not meet requirements.
-![registe](img/register.png)
+![register](images/register.png)
 
 3. After registration, you should be able to get back to home page, then enter your registered account and password. Hit the eyeball could show the password you entered.
-![home_mail](img/home_mail.png)
+![login](images/login.png)
 
 4. Then there will be restarants to be selected, in this project, information of 3 restaurants were imported.
 ![restaurant](img/restaurant.png)
